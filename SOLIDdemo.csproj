@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DIP\DIP.csproj" />
+    <ProjectReference Include="..\ISP\ISP.csproj" />
+    <ProjectReference Include="..\LSP\LSP.csproj" />
+    <ProjectReference Include="..\OCP\OCP.csproj" />
+    <ProjectReference Include="..\SRP\SRP.csproj" />
+  </ItemGroup>
+
+</Project>
